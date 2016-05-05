@@ -15,7 +15,7 @@ jQuery(function(){
         /* autoplay */
         autoplay : true,
         autoplayDelay : 5000,
-        /* for Browsers that support 3D transforms */
+        /* for Browsers that support 3D transforms+ */
         t3D : csTransitions['3DFlips']['random'], /* all will be picked up randomly */
         t2D : [ csTransitions['multi']['random'], csTransitions['vertical']['random'] ],
         noCSS3 : csTransitions['noCSS3']['random'],
